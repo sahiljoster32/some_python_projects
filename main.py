@@ -44,7 +44,14 @@ def main(values):
             print(f"************************yeah your password {item} is never appear in breacher's set************************\n")
     return "Now, you know where to go!!!"
 
+# this is for taking arguments from terminal -----------
+# if __name__ == "__main__":
+#     list_argument = sys.argv[1:]
+#     main(list_argument)
 
 if __name__ == "__main__":
-    list_argument = sys.argv[1:]
-    main(list_argument)
+    with open(r"C:\Users\sahil jhangar\Desktop\repos\password_checker\new_file.txt", "r") as password_file:
+        text_pass = password_file.read()
+        split_pass = text_pass.split(" ")
+        main(split_pass)
+
