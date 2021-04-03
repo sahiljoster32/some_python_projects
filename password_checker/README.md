@@ -6,9 +6,20 @@
 
 <br/>
 
+## there are 2 options to go with:
+- one which take password from command line.
+- > this function starts from line 48
+- one which take password from text file(you can refer new_file), and read passwords.
+- > this function starts from line 54
+<br/>
+
+### make sure if u use one function, then comment out second one.
+
+<br/>
+
 ### implementation of command in window power shell🐚 as follow:
-- make sure you are in current directory (to check use >>>pwd)
-- >>> python main.py #all passwords with spaces.
+- make sure you are in current directory (to check use >>> pwd)
+- python main.py #all passwords with spaces.
 
 <br/>
 
@@ -25,7 +36,7 @@
 ---
 <br/>
 
-# FOR reference U CAN CHECK:
+#### FOR reference U CAN CHECK:
 - `you can read library hashlib`
 - request module ** (must need for API use)
 - sha-1 function and related(but you can skip it.)

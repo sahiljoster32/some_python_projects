@@ -45,12 +45,13 @@ def main(values):
     return "Now, you know where to go!!!"
 
 # this function is for taking arguments from terminal -----------
+# 1st function --------------------------------------------------
 if __name__ == "__main__":
     list_argument = sys.argv[1:]
     main(list_argument)
 
 #this function is for taking passwords from text or anyother readable format file-------------
-
+# 2nd function -------------------------------------------------------------------------------
 if __name__ == "__main__":
     with open(r"-----------------------your path is here --------------------", "r") as password_file:
         text_pass = password_file.read()
