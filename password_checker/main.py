@@ -1,7 +1,7 @@
 import requests
 import sys
 import hashlib
-# "_" -> current value`s no use in function:
+# "_" -> current value`s no use in function
 
 # this for getting the respone .........................
 def data_geter(query, _):
