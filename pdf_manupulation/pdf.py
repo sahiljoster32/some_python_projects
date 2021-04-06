@@ -1,10 +1,26 @@
 import PyPDF2
 import sys
+import time
+
+#just for decoration in loading time -------------------------
+def loading_decor():
+    for i in range(10):
+        print("-",end="")
+        time.sleep(0.02)
+    print(":")
+    for i in range(10):
+        print("\\\b",end="")
+        time.sleep(0.2)
+        print("|\b",end="")
+        time.sleep(0.2)
+        print("-\b",end="")
+        time.sleep(0.2)
+        print("/\b",end="")
 
 # to merge only a selected part of pdf -------------------------------------------
 def from_pages():
-    start = input("\nstart or means from which you to pick the pages\n")
-    stop = input("\nstop or means at which page to stop\n")
+    start = input("start or means from which you to pick the pages")
+    stop = input("stop or means at which page to stop")
     page_Set = (start, stop)
     return page_Set
 
@@ -19,9 +35,10 @@ def append_merger_fun(fileobj1, fileobj2):
         page_SeT = (0, no_of_pages)
     merger.append(fileobj2, None, page_SeT, True)
     merger.write(rf"C:\Users\sahil jhangar\Desktop\pdf\Newly_appended_pdf.pdf")
+    loading_decor()
 
 # a function that merger a given pdf into another pdf --------------with some options like-
-# where to put second pdf, selective pdf's page insertions--------------------------------------
+# where to put second pdf, selective pdf's page insertions---------------------------------
 def merge_pdf_position(fileobj1, fileobj2, page_no):
     specific_page = input("want to add only specific number of pages(Y/N) = ")
     merger.merge(0, fileobj1, None, None, True)
@@ -32,10 +49,11 @@ def merge_pdf_position(fileobj1, fileobj2, page_no):
         page_SeT = (0, no_of_pages)
     merger.merge(page_no, fileobj2, None, page_SeT, True)
     merger.write(rf"C:\Users\sahil jhangar\Desktop\pdf\Newly_merged_pdf.pdf")
+    loading_decor()
 
 # this function only asks for more inputs and to continue the work------------------------------
 def ask_for_more():
-    answer = int(input("do you want to continue (Y/N) = \n"))
+    answer = int(input("do you want to continue (Y/N) = "))
     if answer == "Y":
         flag = 1
     elif answer == "N":
@@ -46,16 +64,17 @@ def ask_for_more():
 # or we can say it runs andlink all pdf addition functions.
 def main(fileobj1, fileobj2):
     while True:
-        print("what you want to do with these files\n")
+        print("what you want to do with these files")
         try:
-            option = int(input("following are the option \n merge = 1 \n append = 2\n"))
+            option = int(
+                input("following are the option \n merge = 1 \n append = 2"))
         except ValueError:
             print("enter only integer value \nnow please try again !!!!!!!\n\n")
         # more exceptions handling required for various errors.
         if option == 1:
             extra_select = input("want to merge second pdf at specific page(Y/N) = ")
             if extra_select == "Y":
-                page_no = int(input("\nat what you want to insert\n"))
+                page_no = int(input("at what you want to insert"))
             else:
                 page_no = 0
             merge_pdf_position(fileobj1, fileobj2, page_no)
