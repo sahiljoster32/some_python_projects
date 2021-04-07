@@ -35,7 +35,7 @@ def append_merger_fun(fileobj1, fileobj2):
         no_of_pages = fileobj2.getNumPages()
         page_SeT = (0, no_of_pages)
     merger.append(fileobj2, None, page_SeT, True)
-    merger.write(rf"C:\Users\sahil jhangar\Desktop\pdf\Newly_appended_pdf.pdf")
+    merger.write(rf"----------------path to save the file needs to be here----------------")
     loading_decor()
     return "done"
 
@@ -50,7 +50,7 @@ def merge_pdf_position(fileobj1, fileobj2, page_no):
         no_of_pages = fileobj2.getNumPages()
         page_SeT = (0, no_of_pages)
     merger.merge(page_no, fileobj2, None, page_SeT, True)
-    merger.write(rf"C:\Users\sahil jhangar\Desktop\pdf\Newly_merged_pdf.pdf")
+    merger.write(rf"----------------path to save the file needs to be here----------------")
     loading_decor()
     return "done"
 
@@ -94,9 +94,14 @@ merger = PyPDF2.PdfFileMerger()
 # this will take arguments from command line ----------------------------
 inputs = sys.argv[1:]
 
+"""
+NOTE:- always use the absolute path for the file if possible, 
+however you can use relative path also.
+"""
+
 # paths with absolute path-------------------------------------------
-path1 = rf"C:\Users\sahil jhangar\Desktop\pdf\{inputs[0]}"
-path2 = rf"C:\Users\sahil jhangar\Desktop\pdf\{inputs[1]}"
+path1 = rf"--------------path to the folder needs to be here------------- \{inputs[0]}"
+path2 = rf"--------------path to the folder needs to be here------------- \{inputs[1]}"
 
 # main driver code----------------------------
 if __name__ == "__main__":
