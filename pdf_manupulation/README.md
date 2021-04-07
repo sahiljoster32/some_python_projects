@@ -11,6 +11,10 @@
 - secondly, set the path of your newly created file.
 - then, open your shell in script's folder and type `python pdf.py pdf1name pdf2name`
 - then follow instructions.
+
+<br/>
+
+## FOR REFERENCE OR TO TRY THE CODE ADDED 2 SAMPLE PDFS
 <br/>
 
 ---
