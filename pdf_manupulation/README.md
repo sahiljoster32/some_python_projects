@@ -1,44 +1,26 @@
-## A SIMPLE PROJECT IN PYTHON!!😇
-- in which you can check how times your password is appeared in breacher data.
+## A SIMPLE  ANOTHER PROJECT IN PYTHON!!😇
+- in which you can manipulate pdf by merging pdfs🗯️.
 <br/>
 
 ---
 
 <br/>
 
-## there are 2 options to go with:
-- one which take password from command line.
-- > this function starts from line 48
-- one which take password from text file(you can refer new_file), and read passwords.
-- > this function starts from line 54
-<br/>
-
-### make sure if u use one function, then comment out second one.
-
-<br/>
-
-### implementation of command in window power shell🐚 as follow:
-- make sure you are in current directory (to check use >>> pwd)
-- python main.py #all passwords with spaces.
-
+## Steps to run this script on your program.
+- firstly, set your pdfs's file path in program.
+- secondly, set the path of your newly created file.
+- then, open your shell in script's folder and type `python pdf.py pdf1name pdf2name`
+- then follow instructions.
 <br/>
 
 ---
 
 <br/>
 
-### for taking input as file.
-- create a text file with all your password, and paste your text file`s path(absolute) in -----------------------your path is here --------------------
-- make sure your every password have atleast one whitespace between.
+#### FOR reference U CAN CHECK:🙂
+- pypdf2 documentation
+- time module's sleep function.
+- file I/O rules and implementation
+- and you can check sys module.
 
-<br/>
-
----
-<br/>
-
-#### FOR reference U CAN CHECK:
-- `you can read library hashlib`
-- request module ** (must need for API use)
-- sha-1 function and related(but you can skip it.)
-
-## Made with 💓 by Sahil jhangar
+## Made with 🤒 by Sahil jhangar
