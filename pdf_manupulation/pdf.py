@@ -37,6 +37,7 @@ def append_merger_fun(fileobj1, fileobj2):
     merger.append(fileobj2, None, page_SeT, True)
     merger.write(rf"C:\Users\sahil jhangar\Desktop\pdf\Newly_appended_pdf.pdf")
     loading_decor()
+    return "done"
 
 # a function that merger a given pdf into another pdf --------------with some options like-
 # where to put second pdf, selective pdf's page insertions---------------------------------
@@ -51,6 +52,7 @@ def merge_pdf_position(fileobj1, fileobj2, page_no):
     merger.merge(page_no, fileobj2, None, page_SeT, True)
     merger.write(rf"C:\Users\sahil jhangar\Desktop\pdf\Newly_merged_pdf.pdf")
     loading_decor()
+    return "done"
 
 # this function only asks for more inputs and to continue the work------------------------------
 def ask_for_more():
@@ -102,4 +104,4 @@ if __name__ == "__main__":
         with open(path2, "rb") as fileobj22:
             fileobj1 = PyPDF2.PdfFileReader(fileobj11)
             fileobj2 = PyPDF2.PdfFileReader(fileobj22)
-            main(fileobj1, fileobj2)
+            sys.exit(main(fileobj1, fileobj2))
