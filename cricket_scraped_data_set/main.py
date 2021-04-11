@@ -3,8 +3,17 @@ from bs4 import BeautifulSoup
 import time 
 import re
 
+
 def all_time_run_delaye():
     pass
+
+
+def players_name(players_id):
+    players_name = []
+    for tag_name in players_id:
+        x = re.split(provider, tag_name)
+        players_name.append(x[1])
+    return players_name
 
 
 def type_of_matches_played(soup_player_specific):
@@ -37,6 +46,7 @@ def data_getters(players_table_test):
         player_bb_test_list1.append(":")
     return player_bb_test_list1
 
+
 def splitter(list_of_data):
     list_bat = []
     list_bowl = []
@@ -50,6 +60,7 @@ def splitter(list_of_data):
             list_bowl.append(item)
     return list_bat, list_bowl
 
+
 def players_id_getter(players_all_tag):
     players_id = []
     for tag in players_all_tag:
@@ -58,10 +69,13 @@ def players_id_getter(players_all_tag):
 
 
 def delayer():
-    time.sleep(0.5)
-
+    time.sleep(0.08)
+#this is only for avoiding mass hit of server --------------- usually 30ms was limit but for safer side we used 800ms
 
 if __name__ == "__main__":
+
+    provider = re.compile(r"/players/[0-9]+/")
+
     url_team_specific = "https://www.bcci.tv/players/men"
     res_team_specific = requests.get(url_team_specific)
     res_html1 = res_team_specific.text
@@ -70,15 +84,16 @@ if __name__ == "__main__":
 
     players_all_tag = soup_team_specific.find_all("a",class_="player-item")
     players_id = players_id_getter(players_all_tag)
-    
+    players_names = players_name(players_id)
+    index = 0
 
     for tag in players_id:
+        print(f"----------------{players_names[index]}----------------")
         url_player_specific = f"https://www.bcci.tv{tag}"
         res_player_specific = requests.get(url_player_specific)
         res_html = res_player_specific.text
         soup_player_specific = BeautifulSoup(res_html, "html.parser")
         matches = type_of_matches_played(soup_player_specific)
-        print("\n\n")
         for match in matches:
             path = f"player-stats__table-row t-{match}"
             players_table = soup_player_specific.find_all("tr", class_=path)
@@ -89,3 +104,5 @@ if __name__ == "__main__":
             print(data_bat)
             print(f"bowling for {match}")
             print(data_bowl)
+        print("\n\n")
+        index += 1
