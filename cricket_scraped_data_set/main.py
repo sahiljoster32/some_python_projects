@@ -3,10 +3,11 @@ from bs4 import BeautifulSoup
 import time 
 import re
 
+def main():
+    pass
 
 def all_time_run_delaye():
     pass
-
 
 def players_name(players_id):
     players_name = []
@@ -14,7 +15,6 @@ def players_name(players_id):
         x = re.split(provider, tag_name)
         players_name.append(x[1])
     return players_name
-
 
 def type_of_matches_played(soup_player_specific):
     all_matches_played = soup_player_specific.find_all("h4", class_= "player-stats__table-match-text")
@@ -29,7 +29,6 @@ def type_of_matches_played(soup_player_specific):
         for i in range(2):
             matches.pop()
     return matches
-
 
 def data_getters(players_table_test):
     player_bb_test_list1 = []
@@ -46,7 +45,6 @@ def data_getters(players_table_test):
         player_bb_test_list1.append(":")
     return player_bb_test_list1
 
-
 def splitter(list_of_data):
     list_bat = []
     list_bowl = []
@@ -60,18 +58,17 @@ def splitter(list_of_data):
             list_bowl.append(item)
     return list_bat, list_bowl
 
-
 def players_id_getter(players_all_tag):
     players_id = []
     for tag in players_all_tag:
         players_id.append(tag["href"])
     return players_id
 
-
 def delayer():
     time.sleep(0.08)
 #this is only for avoiding mass hit of server --------------- usually 30ms was limit but for safer side we used 800ms
 
+#-------------------main driver code----------------------------
 if __name__ == "__main__":
 
     provider = re.compile(r"/players/[0-9]+/")
@@ -80,7 +77,6 @@ if __name__ == "__main__":
     res_team_specific = requests.get(url_team_specific)
     res_html1 = res_team_specific.text
     soup_team_specific = BeautifulSoup(res_html1, "html.parser")
-
 
     players_all_tag = soup_team_specific.find_all("a",class_="player-item")
     players_id = players_id_getter(players_all_tag)
