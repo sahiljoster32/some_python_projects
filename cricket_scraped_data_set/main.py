@@ -1,6 +1,15 @@
 import requests
 from bs4 import BeautifulSoup
+import time 
 
+def all_time_run_delaye():
+    pass # may be updater that update or re check the values ---------------------------
+
+def delayer():
+    pass #to delaye the function so that server won't block the program--------------------------------
+
+def type_of_matches_played():
+    pass #------------------------------to find how many of them will play odi, test , t20i-----------------------------
 
 def data_getters(players_table_test):
     player_bb_test_list1 = []
@@ -30,19 +39,39 @@ def splitter(list_of_data):
             list_bowl.append(item)
     return list_bat, list_bowl
 
-if __name__ == "__main__":
-    url = "https://www.bcci.tv/players/1124/jasprit-bumrah"
-    res = requests.get(url)
-    res_html = res.text
-    soup = BeautifulSoup(res_html, "html.parser")
+def players_id_getter(players_all_tag):
+    players_id = []
+    for tag in players_all_tag:
+        players_id.append(tag["href"])
+    return players_id
 
-    matches_list = ["test","odi","t20i"]
-    for match in matches_list:
-        path = f"player-stats__table-row t-{match}"
-        players_table = soup.find_all("tr", class_=path)
-        data = data_getters(players_table)
-        data_bat, data_bowl = splitter(data)
-        print(f"batting for {match}")
-        print(data_bat)
-        print(f"bowling for {match}")
-        print(data_bowl)
+
+if __name__ == "__main__":
+    url_team_specific = "https://www.bcci.tv/players/men"
+    res_team_specific = requests.get(url_team_specific)
+    res_html1 = res_team_specific.text
+    soup_team_specific = BeautifulSoup(res_html1, "html.parser")
+
+
+    players_all_tag = soup_team_specific.find_all("a",class_="player-item")
+    players_id = players_id_getter(players_all_tag)
+    #print(players_id)-------------------ok till here -----------------------------------
+
+    for tag in players_id:
+        url_player_specific = f"https://www.bcci.tv{tag}"
+        res_player_specific = requests.get(url_player_specific)
+        res_html = res_player_specific.text
+        soup_player_specific = BeautifulSoup(res_html, "html.parser")
+        matches_list = ["test","odi","t20i"]
+        print("\n\n")
+        for match in matches_list:
+            path = f"player-stats__table-row t-{match}"
+            players_table = soup_player_specific.find_all("tr", class_=path)
+            data = data_getters(players_table)
+            data_bat, data_bowl = splitter(data)
+            print(f"batting for {match}")
+            print(data_bat)
+            print(f"bowling for {match}")
+            print(data_bowl)
+    
+    
