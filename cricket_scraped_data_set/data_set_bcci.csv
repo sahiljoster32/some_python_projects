@@ -1,0 +1,198 @@
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+virat-kohli,Batting and Fielding Stats - test,91,153,10,7490,254*,52.37,"13,112",57.12,27,25,839,22,76,0
+virat-kohli,Batting and Fielding Stats - odi,254,245,39,12169,183,59.07,"13,061",93.17,43,62,"1,140",125,128,0
+virat-kohli,Batting and Fielding Stats - t20i,90,84,24,3159,94*,52.65,"2,272",139.04,0,28,285,90,41,0
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+virat-kohli,Bowling Stats - test,91,11,175,84,0,0/0,-,2.88,-,0,0
+virat-kohli,Bowling Stats - odi,254,48,641,665,4,1/15,166.25,6.22,160.25,0,0
+virat-kohli,Bowling Stats - t20i,90,12,146,198,4,1/13,49.50,8.13,36.50,0,0
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+rohit-sharma,Batting and Fielding Stats - test,38,64,8,2615,212,46.69,"4,478",58.39,7,12,274,59,29,0
+rohit-sharma,Batting and Fielding Stats - odi,227,220,32,9205,264,48.96,"10,354",88.90,29,43,832,244,77,0
+rohit-sharma,Batting and Fielding Stats - t20i,111,103,15,2864,118,32.54,"2,061",138.96,4,22,252,133,40,0
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+rohit-sharma,Bowling Stats - test,38,16,383,224,2,1/35,112.00,3.50,191.50,0,0
+rohit-sharma,Bowling Stats - odi,227,38,593,515,8,2/27,64.37,5.21,74.12,0,0
+rohit-sharma,Bowling Stats - t20i,111,9,68,113,1,1/22,113.00,9.97,68.00,0,0
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+jasprit-bumrah,Batting and Fielding Stats - test,19,28,11,43,10*,2.52,191,22.51,0,0,5,0,3,0
+jasprit-bumrah,Batting and Fielding Stats - odi,67,17,11,19,10*,3.16,49,38.77,0,0,2,1,17,0
+jasprit-bumrah,Batting and Fielding Stats - t20i,50,6,4,8,7,4.00,13,61.53,0,0,1,0,7,0
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+jasprit-bumrah,Bowling Stats - test,19,37,"4,075","1,835",83,9/86,22.10,2.70,49.09,1,5
+jasprit-bumrah,Bowling Stats - odi,67,67,"3,523","2,736",108,5/27,25.33,4.65,32.62,5,1
+jasprit-bumrah,Bowling Stats - t20i,50,49,"1,075","1,195",59,3/11,20.25,6.66,18.22,0,0
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+ravichandran-ashwin,Batting and Fielding Stats - test,78,109,14,2656,124,27.95,"4,948",53.67,5,11,304,16,23,0
+ravichandran-ashwin,Batting and Fielding Stats - odi,111,61,19,675,65,16.07,776,86.98,0,1,59,6,30,0
+ravichandran-ashwin,Batting and Fielding Stats - t20i,46,11,7,123,31*,30.75,115,106.95,0,0,14,1,8,0
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+ravichandran-ashwin,Bowling Stats - test,78,146,"21,520","10,099",409,13/140,24.69,2.81,52.61,19,30
+ravichandran-ashwin,Bowling Stats - odi,111,109,"6,021","4,937",150,4/25,32.91,4.91,40.14,1,0
+ravichandran-ashwin,Bowling Stats - t20i,46,46,"1,026","1,193",52,4/8,22.94,6.97,19.73,2,0
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+ravindra-jadeja,Batting and Fielding Stats - test,51,73,19,1954,100*,36.18,"3,127",62.48,1,15,187,50,35,0
+ravindra-jadeja,Batting and Fielding Stats - odi,168,113,39,2411,87,32.58,"2,769",87.07,0,13,178,49,58,0
+ravindra-jadeja,Batting and Fielding Stats - t20i,50,24,10,217,44*,15.50,193,112.43,0,0,12,6,21,0
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+ravindra-jadeja,Bowling Stats - test,51,97,"13,137","5,351",220,10/154,24.32,2.44,59.71,9,9
+ravindra-jadeja,Bowling Stats - odi,168,164,"8,557","7,024",188,5/36,37.36,4.92,45.51,7,1
+ravindra-jadeja,Bowling Stats - t20i,50,49,973,"1,152",39,3/48,29.53,7.10,24.94,0,0
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+bhuvneshwar-kumar,Batting and Fielding Stats - test,21,29,4,552,63*,22.08,"1,225",45.06,0,3,77,1,8,0
+bhuvneshwar-kumar,Batting and Fielding Stats - odi,117,53,15,529,53*,13.92,708,74.71,0,1,44,8,27,0
+bhuvneshwar-kumar,Batting and Fielding Stats - t20i,48,10,6,23,9,5.75,29,79.31,0,0,0,0,6,0
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+bhuvneshwar-kumar,Bowling Stats - test,21,37,"3,348","1,644",63,8/96,26.09,2.94,53.14,3,4
+bhuvneshwar-kumar,Bowling Stats - odi,117,116,"5,625","4,703",138,5/42,34.07,5.01,40.76,4,1
+bhuvneshwar-kumar,Bowling Stats - t20i,48,48,"1,034","1,203",45,5/24,26.73,6.98,22.97,0,1
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+cheteshwar-pujara,Batting and Fielding Stats - test,85,142,8,6244,206*,46.59,"13,904",44.90,18,29,736,14,48,0
+cheteshwar-pujara,Batting and Fielding Stats - odi,5,5,0,51,27,10.20,130,39.23,0,0,4,0,0,0
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+cheteshwar-pujara,Bowling Stats - test,5,0,0,0,0,0/0,-,-,-,0,0
+cheteshwar-pujara,Bowling Stats - odi,48,48,"1,034","1,203",45,5/24,26.73,6.98,22.97,0,1
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+ajinkya-rahane,Batting and Fielding Stats - test,73,123,12,4583,188,41.28,"9,204",49.79,12,23,514,32,78,0
+ajinkya-rahane,Batting and Fielding Stats - odi,90,87,3,2962,111,35.26,"3,767",78.63,3,24,293,33,48,0
+ajinkya-rahane,Batting and Fielding Stats - t20i,20,20,2,375,61,20.83,331,113.29,0,1,32,6,16,0
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+ajinkya-rahane,Bowling Stats - test,73,0,0,0,0,0/0,-,-,-,0,0
+ajinkya-rahane,Bowling Stats - odi,90,0,0,0,0,0/0,-,-,-,0,0
+ajinkya-rahane,Bowling Stats - t20i,20,0,0,0,0,0/0,-,-,-,0,0
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+kl-rahul,Batting and Fielding Stats - test,36,60,2,2006,199,34.58,"3,553",56.45,5,11,237,14,44,0
+kl-rahul,Batting and Fielding Stats - odi,38,37,6,1509,112,48.67,"1,690",89.28,5,9,114,36,13,2
+kl-rahul,Batting and Fielding Stats - t20i,49,45,6,1557,110*,39.92,"1,095",142.19,2,12,138,63,15,0
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+kl-rahul,Bowling Stats - test,36,0,0,0,0,0/0,-,-,-,0,0
+kl-rahul,Bowling Stats - odi,38,0,0,0,0,0/0,-,-,-,0,0
+kl-rahul,Bowling Stats - t20i,49,0,0,0,0,0/0,-,-,-,0,0
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+shikhar-dhawan,Batting and Fielding Stats - test,34,58,1,2315,190,40.61,"3,458",66.94,7,5,316,12,28,0
+shikhar-dhawan,Batting and Fielding Stats - odi,142,139,7,5977,143,45.28,"6,365",93.90,17,32,748,71,62,0
+shikhar-dhawan,Batting and Fielding Stats - t20i,65,63,3,1673,92,27.88,"1,313",127.41,0,11,182,49,19,0
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+shikhar-dhawan,Bowling Stats - test,34,5,54,18,0,0/0,-,2.00,-,0,0
+shikhar-dhawan,Bowling Stats - odi,142,0,0,0,0,0/0,-,-,-,0,0
+shikhar-dhawan,Bowling Stats - t20i,65,0,0,0,0,0/0,-,-,-,0,0
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+mohammad-shami,Batting and Fielding Stats - test,50,66,20,498,51*,10.82,652,76.38,0,1,50,20,10,0
+mohammad-shami,Batting and Fielding Stats - odi,79,38,17,161,25,7.66,194,82.98,0,0,12,7,27,0
+mohammad-shami,Batting and Fielding Stats - t20i,12,0,0,0,0*,-,0,-,0,0,0,0,0,0
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+mohammad-shami,Bowling Stats - test,50,95,"8,999","4,966",180,9/118,27.58,3.31,49.99,9,5
+mohammad-shami,Bowling Stats - odi,79,78,"4,044","3,793",148,5/69,25.62,5.62,27.32,9,1
+mohammad-shami,Bowling Stats - t20i,12,12,262,428,12,3/38,35.66,9.80,21.83,0,0
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+ishant-sharma,Batting and Fielding Stats - test,101,135,45,746,57,8.28,"2,473",30.16,0,1,84,1,21,0
+ishant-sharma,Batting and Fielding Stats - odi,80,28,13,72,13,4.80,203,35.46,0,0,6,0,19,0
+ishant-sharma,Batting and Fielding Stats - t20i,14,3,2,8,5*,8.00,9,88.88,0,0,1,0,4,0
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+ishant-sharma,Bowling Stats - test,101,181,"18,504","9,780",303,10/108,32.27,3.17,61.06,10,11
+ishant-sharma,Bowling Stats - odi,80,78,"3,733","3,563",115,4/34,30.98,5.72,32.46,6,0
+ishant-sharma,Bowling Stats - t20i,14,14,278,400,8,2/34,50.00,8.63,34.75,0,0
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+kuldeep-yadav,Batting and Fielding Stats - test,7,8,0,54,26,6.75,185,29.18,0,0,6,0,3,0
+kuldeep-yadav,Batting and Fielding Stats - odi,63,21,12,118,19,13.11,188,62.76,0,0,10,0,7,0
+kuldeep-yadav,Batting and Fielding Stats - t20i,21,2,1,20,16,20.00,20,100.00,0,0,2,0,8,0
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+kuldeep-yadav,Bowling Stats - test,7,12,"1,063",620,26,6/119,23.84,3.49,40.88,2,2
+kuldeep-yadav,Bowling Stats - odi,63,61,"3,366","2,930",105,6/25,27.90,5.22,32.05,4,1
+kuldeep-yadav,Bowling Stats - t20i,21,20,453,537,39,5/24,13.76,7.11,11.61,1,1
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+rishabh-pant,Batting and Fielding Stats - test,20,33,3,1358,159*,45.26,"1,900",71.47,3,6,145,33,53,2
+rishabh-pant,Batting and Fielding Stats - odi,18,16,0,529,78,33.06,463,114.25,0,3,48,21,8,1
+rishabh-pant,Batting and Fielding Stats - t20i,33,29,5,512,65*,21.33,416,123.07,0,2,39,21,7,4
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+rishabh-pant,Bowling Stats - test,20,0,0,0,0,0/0,-,-,-,0,0
+rishabh-pant,Bowling Stats - odi,18,0,0,0,0,0/0,-,-,-,0,0
+rishabh-pant,Bowling Stats - t20i,33,0,0,0,0,0/0,-,-,-,0,0
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+wriddhiman-saha,Batting and Fielding Stats - test,38,52,9,1251,117,29.09,"2,761",45.30,3,5,120,12,86,11
+wriddhiman-saha,Batting and Fielding Stats - odi,9,5,2,41,16,13.66,56,73.21,0,0,5,0,17,1
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+wriddhiman-saha,Bowling Stats - test,9,0,0,0,0,0/0,-,-,-,0,0
+wriddhiman-saha,Bowling Stats - odi,33,0,0,0,0,0/0,-,-,-,0,0
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+umesh-yadav,Batting and Fielding Stats - test,48,55,23,359,31,11.21,719,49.93,0,0,35,17,16,0
+umesh-yadav,Batting and Fielding Stats - odi,75,24,14,79,18*,7.90,134,58.95,0,0,8,1,22,0
+umesh-yadav,Batting and Fielding Stats - t20i,7,1,0,2,2,2.00,4,50.00,0,0,0,0,3,0
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+umesh-yadav,Bowling Stats - test,48,94,"7,621","4,521",148,10/133,30.54,3.55,51.49,5,3
+umesh-yadav,Bowling Stats - odi,75,73,"3,558","3,565",106,4/31,33.63,6.01,33.56,4,0
+umesh-yadav,Bowling Stats - t20i,7,7,150,219,9,2/19,24.33,8.76,16.66,0,0
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+yuzvendra-chahal,Batting and Fielding Stats - odi,54,10,4,53,18*,8.83,90,58.88,0,0,7,0,15,0
+yuzvendra-chahal,Batting and Fielding Stats - t20i,48,4,2,5,3*,2.50,11,45.45,0,0,0,0,9,0
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+yuzvendra-chahal,Bowling Stats - odi,48,48,"1,125","1,575",62,6/25,25.40,8.40,18.14,2,1
+yuzvendra-chahal,Bowling Stats - t20i,7,7,150,219,9,2/19,24.33,8.76,16.66,0,0
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+hardik-pandya,Batting and Fielding Stats - test,11,18,1,532,108,31.29,720,73.88,1,4,68,12,7,0
+hardik-pandya,Batting and Fielding Stats - odi,60,44,7,1267,92*,34.24,"1,080",117.31,0,7,90,54,22,0
+hardik-pandya,Batting and Fielding Stats - t20i,48,32,8,474,42*,19.75,321,147.66,0,0,27,30,23,0
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+hardik-pandya,Bowling Stats - test,11,19,937,528,17,6/50,31.05,3.38,55.11,0,1
+hardik-pandya,Bowling Stats - odi,60,55,"2,446","2,267",55,3/31,41.21,5.56,44.47,0,0
+hardik-pandya,Bowling Stats - t20i,48,44,803,"1,094",41,4/38,26.68,8.17,19.58,1,0
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+mayank-agarwal,Batting and Fielding Stats - test,14,23,0,1052,243,45.73,"1,931",54.47,3,4,123,23,4,0
+mayank-agarwal,Batting and Fielding Stats - odi,5,5,0,86,32,17.20,83,103.61,0,0,12,1,1,0
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+mayank-agarwal,Bowling Stats - test,5,1,6,10,0,0/0,-,10.00,-,0,0
+mayank-agarwal,Bowling Stats - odi,48,44,803,"1,094",41,4/38,26.68,8.17,19.58,1,0
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+kedar-jadhav,Batting and Fielding Stats - odi,73,52,19,1389,120,42.09,"1,367",101.60,2,6,141,24,33,0
+kedar-jadhav,Batting and Fielding Stats - t20i,9,6,0,122,58,20.33,99,123.23,0,1,12,3,1,0
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+kedar-jadhav,Bowling Stats - odi,9,0,0,0,0,0/0,-,-,-,0,0
+kedar-jadhav,Bowling Stats - t20i,48,44,803,"1,094",41,4/38,26.68,8.17,19.58,1,0
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+navdeep-saini,Batting and Fielding Stats - test,2,3,1,8,5,4.00,27,29.62,0,0,1,0,0,0
+navdeep-saini,Batting and Fielding Stats - odi,7,4,3,92,45,92.00,100,92.00,0,0,9,3,3,0
+navdeep-saini,Batting and Fielding Stats - t20i,10,2,2,11,11*,-,10,110.00,0,0,2,0,3,0
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+navdeep-saini,Bowling Stats - test,2,4,251,172,4,4/119,43.00,4.11,62.75,0,0
+navdeep-saini,Bowling Stats - odi,7,7,390,454,6,2/58,75.66,6.98,65.00,0,0
+navdeep-saini,Bowling Stats - t20i,10,9,197,235,13,3/17,18.07,7.15,15.15,0,0
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+deepak-chahar,Batting and Fielding Stats - odi,3,2,1,18,12,18.00,22,81.81,0,0,1,0,0,0
+deepak-chahar,Batting and Fielding Stats - t20i,13,4,4,1,1*,-,1,100.00,0,0,0,0,0,0
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+deepak-chahar,Bowling Stats - odi,13,13,287,362,18,6/7,20.11,7.56,15.94,0,1
+deepak-chahar,Bowling Stats - t20i,10,9,197,235,13,3/17,18.07,7.15,15.15,0,0
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+manish-pandey,Batting and Fielding Stats - odi,26,21,7,492,104*,35.14,535,91.96,1,2,41,4,7,0
+manish-pandey,Batting and Fielding Stats - t20i,39,33,17,709,79*,44.31,562,126.15,0,3,49,19,9,0
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+manish-pandey,Bowling Stats - odi,39,0,0,0,0,0/0,-,-,-,0,0
+manish-pandey,Bowling Stats - t20i,10,9,197,235,13,3/17,18.07,7.15,15.15,0,0
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+hanuma-vihari,Batting and Fielding Stats - test,12,21,2,624,111,32.84,"1,466",42.56,1,4,83,2,2,0
+hanuma-vihari,Batting and Fielding Stats - test,12,2,624,111,32.84,"1,466",42.56,1,4,83,2,2
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+hanuma-vihari,Bowling Stats - test,12,345,180,5,3/38,36.00,3.13,69.00,0
+hanuma-vihari,Bowling Stats - test,10,9,197,235,13,3/17,18.07,7.15,15.15,0,0
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+shardul-thakur,Batting and Fielding Stats - test,2,3,1,73,67,36.50,130,56.15,0,1,9,2,0,0
+shardul-thakur,Batting and Fielding Stats - odi,15,8,3,107,30,21.40,74,144.59,0,0,9,6,3,0
+shardul-thakur,Batting and Fielding Stats - t20i,22,5,3,69,22*,34.50,35,197.14,0,0,5,4,4,0
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+shardul-thakur,Bowling Stats - test,2,3,268,164,7,7/155,23.42,3.67,38.28,1,0
+shardul-thakur,Bowling Stats - odi,15,15,723,818,22,4/52,37.18,6.78,32.86,2,0
+shardul-thakur,Bowling Stats - t20i,22,21,455,691,31,4/27,22.29,9.11,14.67,1,0
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+shreyas-iyer,Batting and Fielding Stats - odi,22,20,1,813,103,42.78,810,100.37,1,8,81,17,8,0
+shreyas-iyer,Batting and Fielding Stats - t20i,29,26,7,550,67,28.94,411,133.81,0,3,44,22,7,0
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+shreyas-iyer,Bowling Stats - odi,29,0,0,0,0,0/0,-,-,-,0,0
+shreyas-iyer,Bowling Stats - t20i,22,21,455,691,31,4/27,22.29,9.11,14.67,1,0
+Name,kind_of_match,Mat,Inn,No,Runs,HS,Ave,BF,SR,100,50,4s,6s,CT,ST
+washington-sundar,Batting and Fielding Stats - test,4,6,2,265,96*,66.25,502,52.78,0,3,31,5,0,0
+washington-sundar,Batting and Fielding Stats - odi,1,0,0,0,0*,-,0,-,0,0,0,0,1,0
+washington-sundar,Batting and Fielding Stats - t20i,31,11,4,47,14*,6.71,32,146.87,0,0,4,3,7,0
+Name,kind_of_match,Mat,Inn,Balls,Runs,WKTS,BBM,Econ,Ave,SR,4W,5W
+washington-sundar,Bowling Stats - test,4,7,526,299,6,4/169,49.83,3.41,87.66,0,0
+washington-sundar,Bowling Stats - odi,1,1,60,65,1,1/65,65.00,6.50,60.00,0,0
+washington-sundar,Bowling Stats - t20i,31,30,621,750,25,3/22,30.00,7.24,24.84,0,0
