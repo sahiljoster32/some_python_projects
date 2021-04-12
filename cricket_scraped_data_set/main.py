@@ -2,9 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import time 
 import re
-
-def main():
-    pass
+import csv
 
 def all_time_run_delaye():
     pass
@@ -64,11 +62,12 @@ def players_id_getter(players_all_tag):
         players_id.append(tag["href"])
     return players_id
 
+
 def delayer():
     time.sleep(0.08)
 #this is only for avoiding mass hit of server --------------- usually 30ms was limit but for safer side we used 800ms
 
-#-------------------main driver code----------------------------
+#---------------main driver code-----------------
 if __name__ == "__main__":
 
     provider = re.compile(r"/players/[0-9]+/")
