@@ -4,8 +4,11 @@ import time
 import re
 import csv
 
+#--------------------------------------------------------all function definitions-------------------------------------------------------
+
 def all_time_run_delaye():
-    pass #till not is used -------- until deployment-------------
+    pass 
+#till not is used -------- until deployment-------------
 
 def players_name(players_id):
     players_name = []
@@ -43,11 +46,10 @@ def data_getters(players_table_test):
         player_bb_test_list1.append(":")
     return player_bb_test_list1
 
-def splitter(list_of_data,index):
+def splitter(list_of_data,index,storer_value):
     list_bat = []
     list_bowl = []
     flag = 0
-    print(list_of_data)
     for item in list_of_data:
         if item == ":":
             flag = 1
@@ -55,9 +57,34 @@ def splitter(list_of_data,index):
             list_bat.append(item)
         elif flag == 1:
             list_bowl.append(item)
+    if index == 1:
+        storer_data_set_2(list_bowl,index,storer_value)
+        storer_value += 1
+        return list_bat
     if index == 2:
-        return list_bowl
-    return list_bat
+       return storer_data_set_2(list_bowl,index,storer_value)
+    
+
+def storer_data_set_2(list_bowl,index,storer_value):#still getting error from here -----------------------------------------
+    if index == 1:
+        if storer_value == 0:
+            global list_bowl1
+            list_bowl1 = list_bowl
+        if storer_value == 1:
+            global list_bowl2
+            list_bowl2 = list_bowl
+        if storer_value == 2:
+            global list_bowl3
+            list_bowl3 = list_bowl
+
+    if index == 2:
+        storer_value -= 1
+        if storer_value == 2:
+            return list_bowl1
+        if storer_value == 1:
+            return list_bowl2
+        if storer_value == 0:
+            return list_bowl3
 
 def players_id_getter(players_all_tag):
     players_id = []
@@ -71,15 +98,17 @@ def appending_data(rowlist, data):
     return rowlist
 
 def delayer():
-    time.sleep(0.08)
+    time.sleep(0.04)
 #this is only for avoiding mass hit of server --------------- usually 30ms was limit but for safer side we used 800ms
 
-if __name__ == "__main__":
+# ------------------------------------------------------till here all functions are done ---------------------------------------------
 
+#-------main driver code starts from here------------
+
+if __name__ == "__main__":
+    list_bowl1, list_bowl2,list_bowl3 = [], [], []
     with open("data_set_bcci.csv","w") as data_set:
         writer_obj = csv.writer(data_set, lineterminator = '\n')
-        #headers = ["Mat","Inn","No","Runs","HS","Ave","BF","SR","100","50","4s","6s","CT","ST"]
-        
         
         provider = re.compile(r"/players/[0-9]+/")
 
@@ -98,6 +127,7 @@ if __name__ == "__main__":
             res_html = res_player_specific.text
             soup_player_specific = BeautifulSoup(res_html, "html.parser")
             matches = type_of_matches_played(soup_player_specific)
+            storer_value = 0
             for index in [1,2]:
                 flag_print = 0
                 for match in matches:
@@ -105,7 +135,12 @@ if __name__ == "__main__":
                     players_table = soup_player_specific.find_all("tr", class_=path)
                     data = data_getters(players_table)
                     delayer()
-                    data_scores = splitter(data,index)
+                    data_scores = splitter(data,index,storer_value)
+                    if index == 1:
+                        storer_value += 1 
+                    if index == 2:
+                        pass
+                        storer_value -= 1
                     if index == 1:
                         if flag_print == 0:
                             row_heading = ["Name","kind_of_match","Mat","Inn","No","Runs","HS","Ave","BF","SR","100","50","4s","6s","CT","ST"]
@@ -116,10 +151,12 @@ if __name__ == "__main__":
                         writer_obj.writerow(row_to_added_scores)
                     elif index == 2:
                         if flag_print == 0:
-                            row_heading = ["Name","kind_of_match","Mat","Inn","Balls","Runs","WKTS","BBM","Ave","SR","4W","5W"]
+                            row_heading = ["Name","kind_of_match","Mat","Inn","Balls","Runs","WKTS","BBM","Econ","Ave","SR","4W","5W"]
                             writer_obj.writerow(row_heading)
                             flag_print = 1
                         row_to_added_scores = [players_names[index_name],f"Bowling Stats - {match}"]
                         row_to_added_scores = appending_data(row_to_added_scores,data_scores)
                         writer_obj.writerow(row_to_added_scores)
             index_name += 1
+
+# signed by -- sahil jhangar      
