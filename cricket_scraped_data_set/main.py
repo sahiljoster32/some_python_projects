@@ -9,7 +9,6 @@ import csv
 def all_time_run_delaye():
     pass 
 #till not is used -------- until deployment-------------
-
 def players_name(players_id):
     players_name = []
     for tag_name in players_id:
@@ -143,7 +142,7 @@ if __name__ == "__main__":
                         storer_value -= 1
                     if index == 1:
                         if flag_print == 0:
-                            row_heading = ["Name","kind_of_match","Mat","Inn","No","Runs","HS","Ave","BF","SR","100","50","4s","6s","CT","ST"]
+                            row_heading = ["Name----------","kind_of_match","Mat","Inn","No","Runs","HS","Ave","BF","SR","100","50","4s","6s","CT","ST"]
                             writer_obj.writerow(row_heading)
                             flag_print = 1
                         row_to_added_scores = [players_names[index_name],f"Batting and Fielding Stats - {match}"]
@@ -151,12 +150,13 @@ if __name__ == "__main__":
                         writer_obj.writerow(row_to_added_scores)
                     elif index == 2:
                         if flag_print == 0:
-                            row_heading = ["Name","kind_of_match","Mat","Inn","Balls","Runs","WKTS","BBM","Econ","Ave","SR","4W","5W"]
+                            row_heading = ["Name----------","kind_of_match","Mat","Inn","Balls","Runs","WKTS","BBM","Econ","Ave","SR","4W","5W"]
                             writer_obj.writerow(row_heading)
                             flag_print = 1
                         row_to_added_scores = [players_names[index_name],f"Bowling Stats - {match}"]
                         row_to_added_scores = appending_data(row_to_added_scores,data_scores)
                         writer_obj.writerow(row_to_added_scores)
             index_name += 1
-
-# signed by -- sahil jhangar      
+    data_set.close()
+    
+# signed by -- sahil jhangar
