@@ -1,5 +1,5 @@
 ## A SIMPLE  ANOTHER PROJECT IN PYTHON!!😇
-- in which you can manipulate pdf by merging pdfs🗯️.
+- in this project you can bring a sites data into csv or excel spreadsheet🗯️.
 <br/>
 
 ---
@@ -7,14 +7,12 @@
 <br/>
 
 ## Steps to run this script on your program.
-- firstly, set your pdfs's file path in program.
-- secondly, set the path of your newly created file.
-- then, open your shell in script's folder and type `python pdf.py pdf1name pdf2name`
-- then follow instructions.
+- make a local repository.
+- and run simply as you run other python files. 
 
 <br/>
 
-## FOR REFERENCE OR TO TRY THE CODE ADDED 2 SAMPLE PDFS
+## FOR REFERENCE OR TO understand THE CODE output ADDED 1 SAMPLE spreadsheet
 <br/>
 
 ---
@@ -22,9 +20,8 @@
 <br/>
 
 #### FOR reference U CAN CHECK:🙂
-- pypdf2 documentation
-- time module's sleep function.
-- file I/O rules and implementation
-- and you can check sys module.
+- modules :- time, bs4, requests, re(regular expressions),csv.
+- https://www.bcci.tv/players/men (for taking the list of available players)
+- https://www.bcci.tv/players/164/virat-kohli (to take the data of particular player)
 
-## Made with 🤒 by Sahil jhangar
+## Made with 💓 by Sahil jhangar:------
