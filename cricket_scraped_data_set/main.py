@@ -64,7 +64,7 @@ def splitter(list_of_data,index,storer_value):
        return storer_data_set_2(list_bowl,index,storer_value)
     
 
-def storer_data_set_2(list_bowl,index,storer_value):#still getting error from here -----------------------------------------
+def storer_data_set_2(list_bowl,index,storer_value):
     if index == 1:
         if storer_value == 0:
             global list_bowl1
