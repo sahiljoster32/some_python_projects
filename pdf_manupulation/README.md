@@ -1,4 +1,4 @@
-## A SIMPLE  ANOTHER PROJECT IN PYTHON!!😇
+## A SIMPLE ANOTHER PROJECT IN PYTHON!!😇
 - in which you can manipulate pdf by merging pdfs🗯️.
 <br/>
 
