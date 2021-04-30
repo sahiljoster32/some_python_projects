@@ -45,11 +45,11 @@ def global_alignment(X, Y, penalty=-1, reward=1):
 
         elif i > 0 and current_score == left_score + penalty:
             updated_dna1 = X[i - 1] + updated_dna1
-            updated_dna2 = "-" + updated_dna2
+            updated_dna2 = "|" + updated_dna2
             i = i - 1
 
         else:
-            updated_dna1 = "-" + updated_dna1
+            updated_dna1 = "|" + updated_dna1
             updated_dna2 = Y[j - 1] + updated_dna2
             j = j - 1
 
@@ -59,8 +59,8 @@ if __name__ == "__main__":
     X = str(input("enter your 1st dna sequence: "))
     Y = str(input("enter your 2nd dna sequence: "))
     dna_align = list(global_alignment(X, Y))
-    print(dna_align[0])
-    print(dna_align[1])
+    for index, element in enumerate(dna_align[0]):
+        print(f"{dna_align[0][index]}----{dna_align[1][index]}")
     j = 0
     score = 0
     flag = True
@@ -70,4 +70,5 @@ if __name__ == "__main__":
             flag = False
         else:
             j+=1
-    print(score)
+    print(f"\nbest score of your sequence :\t{score}")
+    
